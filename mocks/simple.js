@@ -1,8 +1,11 @@
 
 module.exports = {
 	view: "/simple.ftl",
-	//out: "/test.html",
+	out: "/index.html",
 	data: {
-		name: "ijse"
+		name: "FreeMarker Render Result",
+		list: [
+			"a","b","c"
+		]
 	}
 };

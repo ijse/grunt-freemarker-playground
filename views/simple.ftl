@@ -1,3 +1,7 @@
 view sample
 
-${name}
+<h1>${name}</h1>
+
+<hr/>
+<#include "/motd.ftl" />
+
